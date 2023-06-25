@@ -18,3 +18,6 @@ function busquedaBinaria(lista, valor) {
     
     return -1; // El valor no se encuentra en la lista
   }
+
+
+  module.exports = busquedaBinaria;

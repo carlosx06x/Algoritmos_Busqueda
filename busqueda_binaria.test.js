@@ -1,3 +1,5 @@
+const busquedaBinaria = require('./busqueda_binaria');
+
 
 // Prueba de cobertura de condiciones
 describe('Prueba de cobertura de condiciones para el algoritmo de búsqueda binaria', () => {

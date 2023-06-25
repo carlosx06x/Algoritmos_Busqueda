@@ -28,4 +28,4 @@ function buscarTexto(texto, subcadena) {
     return -1; // No se encontró la subcadena en el texto
   }
 
-  
+  module.exports = buscarTexto;

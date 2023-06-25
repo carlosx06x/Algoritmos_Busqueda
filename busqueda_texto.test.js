@@ -1,11 +1,12 @@
+const buscarTexto = require('./busqueda_texto');
 
 // Pruebas de cobertura de condición
 describe('Pruebas de cobertura de condición para la búsqueda en texto', () => {
     test('Buscar una subcadena existente en el texto', () => {
-      const texto = 'Se escriben casos de prueba suficientes para que cada ';
+      const texto = 'Se escriben casos de prueba suficientes para que cada decision';
       const subcadena = 'decision';
       const resultado = buscarTexto(texto, subcadena);
-      expect(resultado).toBe(6); // Esperamos que la subcadena se encuentre en el índice 6
+      expect(resultado).toBe(54); // Esperamos que la subcadena se encuentre en el índice 54
     });
   
     test('Buscar una subcadena inexistente en el texto', () => {
@@ -37,6 +38,4 @@ describe('Pruebas de cobertura de condición para la búsqueda en texto', () => 
     });
 
   });
-
-
   

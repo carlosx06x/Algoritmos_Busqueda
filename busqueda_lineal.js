@@ -14,3 +14,5 @@ function busquedaLineal(lista, valor) {
 
   return { encontrado, indice };
 }
+
+module.exports = busquedaLineal;

@@ -1,3 +1,4 @@
+const busquedaLineal = require('./busqueda_lineal');
 
 // Prueba de cobertura de decisiones
 describe('Prueba de cobertura de decisiones para el algoritmo de búsqueda lineal', () => {
